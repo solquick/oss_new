@@ -108,6 +108,11 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
    
 3. Git 통합
 4. 디버깅
+    디버깅은 VS Code 의 주요한 기능 중 하나이다. VS Code의 내장 디버거는 편집, 컴파일 및 디버그 루프를 가속화 하는 데 도움을 준다.
+    VS Code는 Node.js 런타임에 대한 디버깅 지원이 내장되어 있으며 JavaScript, TypeScript 또는 JavaScript로 변환되는 다른 언어를 디버깅할 수 있다.
+    다른 언어와 런타임(PHP, Ruby, Go, C#, Python, C++, PowerShell 등을 포함)을 디버깅 하려면 VS Code Marketplace에서 Debuggers를 찾거나 최상위 실행 메뉴에서 추가 Debuggers 설치를 선택하면 된다.
+
+
 
 
 
