@@ -132,7 +132,7 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
 ![debug icon, run menu](https://github.com/solquick/oss_new/assets/165973549/2242f4c5-4fe7-40a7-b047-abe405a249a1)
 
 
-    3) Debug actions   
+    2) Debug actions   
     디버그 세션이 시작되면, Debug toolbar가 편집기 상단에 나타난다.   
     다음은 디버그 툴바의 Action에 대한 설명이다.   
     - Continue/Pause : 다음 breakpoint까지 정상적인 프로그램(스크립트) 실행을 재개하라 / 현재 줄에서 실행되는 코드를 검사하고 한 줄씩 디버그하라
@@ -141,6 +141,8 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
     - Step Out : method나 subroutine 안에 있을 때, 마치 단일 명령인 것 처럼 현재 method의 나머지 줄을 완료하여 이전 실행 context으로 돌아가라.
     - Restart : 현재 프로그램 실행을 종료하고 현재 run configuration을 사용하여 디버깅을 다시 시작하라.
     - Stop : 현재 프로그램 실행을 종료하라.<br/><br/>
+    ![breakpoint : action bar](https://github.com/solquick/oss_new/assets/165973549/59ab9436-e114-46ce-a533-e891ff643f7a)
+
    3) Breakpoints (중단점)   
    편집기 여백을 클릭하거나 현재 줄에서 F9를 사용하여 Breakpoints를 전환할 수 있다. 더 미세한 breakpoint 제어는 Run and Debug 보기의 BREAKPOINTS 섹션에서 수행할 수 있다. 편집기 여백의 Breakpoint는 일반적으로 빨간색 원으로 표시된다. 비활성화된 Breakpoint는 회색 원으로 표시된다.
 
@@ -262,7 +264,30 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
     https://ux.stories.pe.kr/290<br/>
     https://llighter.github.io/vscode-snippet/<br/><br/>
 
-12. 휴대성
+12. 휴대성 (Portability)     
+VS Code의 다양한 기능과 모드를 통해 사용자 환경을 쉽게 내보내고 다른 컴퓨터에서 가져올 수 있어 일관된 개발 환경을 유지할 수 있다.   
+다음은 VS Code의 휴대성 향상을 위한 도구에 대한 설명이다.   
+    1) 확장 프로그램   
+        확장 프로그램 은 Visual Studio 내에서 실행되며 새 기능 또는 향상된 기능을 제공하는 코드 패키지이다. 확장 프로그램은 컨트롤, 샘플, 템플릿, 도구 또는 Visual Studio에 기능을 추가하는 기타 구성 요소(예: 라이브 공유 또는 GitHub Copilot)가 될 수 있다.
+    2) Portable mode   
+        비주얼 스튜디오 코드는 휴대용 모드를 지원한다. 이 모드는 VS Code에 의해 생성되고 유지되는 모든 데이터가 그 자체 근처에 있을 수 있도록 하므로, 환경 간에 이동할 수 있다.   
+        이 모드는 VS Code 확장의 설치 폴더 위치를 설정하는 방법을 제공하며, Windows AppData 폴더에 확장이 설치되지 않도록 하는 기업 환경에 유용하다.   
+        휴대용 모드는 Windows용 ZIP 다운로드, Linux용 TAR.GZ 다운로드 및 macOS용 일반 응용 프로그램 다운로드에서 지원된다.
+    3) Local Port Forwarding   
+        포트 포워딩 지원은 Microsoft 개발 터널을 통해 Visual Studio Code에 내장되어 있으며 확장이 필요하지 않다. 로컬 웹 서비스를 실행할 때, 포트 보기를 사용하여 인터넷을 통해 다른 사람들이 서비스에 액세스할 수 있도록 할 수 있다.
+    4) Key Bindings   
+        - 키보드 단축키 편집기   
+            비주얼 스튜디오 코드는 키보드 단축키 편집기를 사용하여 풍부하고 쉬운 키보드 단축키 편집 경험을 제공한다. 키 바인딩 유무에 관계없이 사용 가능한 모든 명령을 나열하며 사용 가능한 작업을 사용하여 키 바인딩을 쉽게 변경/제거/재설정할 수 있다. 또한 상단에 명령이나 키 바인딩을 찾는 데 도움이 되는 검색 상자가 있다.   
+            키보드 레이아웃에 따라 키 바인딩을 볼 수도 있다. 예를 들어, 미국 키보드 레이아웃의 키 바인딩 Cmd+\는 레이아웃이 독일어로 변경되면 Ctrl+Shift+Alt+Cmd+7로 표시된다. 키 바인딩을 입력하는 대화 상자는 키보드 레이아웃에 따라 정확하고 원하는 키 바인딩을 할당한다.   
+        - Keymap 확장   
+            키보드 단축키는 생산성에 필수적이며 키보드 습관을 바꾸는 것은 어려울 수 있다. 이를 돕기 위해, 파일 > 환경 설정> 키보드 단축키 마이그레이션 에서 인기 있는 키맵 확장 목록을 보여준다. 이 확장 프로그램은 다른 편집자의 단축키와 일치하도록 VS Code 단축키를 수정하므로 새로운 키보드 단축키를 배울 필요가 없다. Marketplace에는 키맵 확장 카테고리도 있다.   
+        - 키 바인딩 충돌 감지   
+            많은 확장 프로그램이 설치되어 있거나 키보드 단축키를 사용자 정의한 경우, 때때로 동일한 키보드 단축키가 여러 명령에 매핑되는 키 바인딩 충돌이 있을 수 있다. 
+키보드 단축키 편집기에는 충돌을 표시하기 위해 키보드 단축키를 기반으로 키 바인딩을 필터링하는 컨텍스트 메뉴 명령이 있다.   
+            과부하되었다고 생각하는 키 바인딩으로 명령을 선택하고 여러 명령이 정의되었는지, 키 바인딩의 소스 및 활성화된 시기를 확인할 수 있다.
+
+
+ 
 13. 원격 개발
 14. 라이브 공유
     
