@@ -186,7 +186,9 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
     - Ctrl + Alt + (↑, ↓) :
 
         Ctrl + Alt 키를 누른 상태에서 위, 아래 방향 화살표로 세로 선택 영역을 조절합니다. 세로로 여러 줄이 선택 된 상태에서, Shift + (←, →) 단축키로 가로 영역을 선택 할 수 있습니다. 세로 영역이 선택된 상태에서 텍스트를 수정하면, 선택 된 모든 영역에 수정한 내용이 똑같이 반영됩니다.
-![1](https://github.com/solquick/oss_new/assets/98575490/2d578c15-8fb3-4712-baf6-81a6afc3c51f)
+      
+        ![1](https://github.com/solquick/oss_new/assets/98575490/2d578c15-8fb3-4712-baf6-81a6afc3c51f)
+      
     - Shift + Alt + 마우스 드래그 :
 
       Shift + Alt 키를 누른 상태로 선택 영역을 마우스로 드래그합니다. 세로로 영역이 모두 선택됩니다.
