@@ -193,19 +193,35 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
 
       Shift + Alt 키를 누른 상태로 선택 영역을 마우스로 드래그합니다. 세로로 영역이 모두 선택됩니다.
 
+      ![드래그](https://github.com/solquick/oss_new/assets/98575490/de082b9f-9491-430b-8130-4eb4087a2d16)
+      
     - Ctrl + Shift + L :
 
         변경하려는 단어를 선택하고, Ctrl + Shift + L 단축키를 누르면, 선택한 단어와 같은 단어가 모두 선택됩니다. 이 때, 단어를 수정하면, 동시에 수정이 됩니다.
+
+       ![L](https://github.com/solquick/oss_new/assets/98575490/b52d6770-6e10-401b-afd9-993efa4d4faf)
 
     - Ctrl + D :
 
        Ctrl + D 단축키는 같은 단어를 모두 선택하는 것이 아니라, 단축키를 누를 때마다 같은 단어가 하나씩 추가로 선택됩니다. 변경하려는 단어(변수)를 선택합니다. Ctrl + D 키를 원하는 단어가 모두 선택될 때까지 반복해서 누릅니다.
 
+      ![d](https://github.com/solquick/oss_new/assets/98575490/f20f2d87-d4a4-41fb-a5ff-ea9c443d7bfd)
+
     - Shift+ Alt+ Left/Right key
         빠르게 지금 선택한 부분을 확장하고 싶거나 줄이고 싶을 때 Shift+Alt+좌/우 방향키를 눌러주면 쉽게 확장/축소가 가능합니다. 오른쪽 방향키를 몇 번 눌러주면 넓은 범위도 쉽게 선택이 가능합니다.
 
+      ![l,r](https://github.com/solquick/oss_new/assets/98575490/61948139-98b3-4ef4-af1b-5f9eeb50cbe2)
+
+    <출처>
    
-9. 코드 조각
+   https://hianna.tistory.com/360
+   
+   https://hianna.tistory.com/358
+   
+   https://week-book.tistory.com/entry/VSCode-%EC%BB%A4%EC%84%9C-%EC%97%AC%EB%9F%AC-%EA%B0%9C-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0-%EB%A9%80%ED%8B%B0-%EC%BB%A4%EC%84%9C
+
+   
+10. 코드 조각
 
     코드조각 (snippet)은 단축어를 통해 자주 사용되는 코드를 빠르게 작성할 수 있도록 도와주는 것입니다. 예를 들어, clg라고 입력하면 console.log()로 변경되거나 rfc라고 입력하면 리액트 함수형 컴포넌트 구조 코드를 작성해주어 반복적인 코드 작성시간을 줄여줍니다.
 
@@ -243,9 +259,9 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
 
 
 
-10. 휴대성
-11. 원격 개발
-12. 라이브 공유
+11. 휴대성
+12. 원격 개발
+13. 라이브 공유
     
     VSC의 라이브 공유 기능은 개발자들이 실시간으로 코드를 공유하고 협업할 수 있도록 도와준다. 이를 통해 개발자들은 코드 리뷰, 페어 프로그래밍, 멘토링 등의 작업을 더욱 효율적으로 수행할 수 있다.
 
@@ -268,7 +284,7 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
 
 
 
-13. 테마 및 사용자 인터페이스 사용자 정의
+14. 테마 및 사용자 인터페이스 사용자 정의
 
 Visual Studio Code는 사용자가 테마 및 사용자 인터페이스를 사용자 정의할 수 있는 다양한 옵션을 제공한다. 이러한 사용자 정의 옵션을 통해 개발자는 자신에게 가장 적합한 작업 환경을 만들 수 있으며, 작업 중 환경을 자신의 방식에 맞게 더 편안하고 생산적인 환경으로 조성할 수 있습니다.
 
