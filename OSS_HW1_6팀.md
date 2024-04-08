@@ -13,6 +13,8 @@
 
 비주얼 스튜디오 코드(Visual Studio Code)는 마이크로소프트Microsoft에서 오픈소스로 개발하고 있는 소스 코드 에디터로 개발자들 사이에서 인기가 많은 코드 편집기입니다. 웹 기반으로 기술들로 데스크톱 애플리케이션을 만들 수 있는 깃허브GitHub의 일렉트론Electron을 기반으로 만들어져 맥OSmacOS, 리눅스Linux, 윈도우Windows 등 메이저 운영체제를 모두 지원하고 있습니다. 마이크로소프트의 통합 개발 환경(IDE) 비주얼 스튜디오Visual Studio와 이름이 비슷하지만 따로 개발되고 있으며 IDE보다는 코드 에디터에 가깝습니다. MIT 라이센스로 오픈소스로 공개되어 있으며, 무료로 사용할 수 있습니다.
 
+비주얼 스튜디오 코드는 2015년 4월 29일 마이크로소프트 빌드 컨퍼런스에서 처음 소개되었으며, 미리보기 버전이 공개되었습니다. 2015년 11월 18일, MIT 라이선스 하에 배포가 진행되었고 깃허브에 소스 코드가 올라왔으며, 확장 기능 지원 또한 발표되었습니다. 2016년 4월 14일, 퍼블릭 베타 단계가 끝나고 정식 버전이 웹을 통해 배포되었습니다. 이때 이미 2백만 다운로드를 넘었으며, 100개 이상의 언어 지원, 1,000개 이상의 확장이 존재했습니다. 2018년 스택오버플로우StackOverflow 개발자 설문조사에서는 선호하는 개발 도구 부문에서 34.9%(중복 선택)의 선택을 받으며 1위를 차지했습니다. 2019년에는 차이가 더 벌어져 50.7%로 압도적인 차이로 1위를 차지했습니다. IDE/에디터 분야에서는 젯브레인JetBrain의 IDE들과 깃허브의 아톰Atom 이후에 새롭게 트랜드를 주도하고 있습니다.
+
 VS code는 다음과 같은 주요한 특징을 가지고 있습니다.
 
 - 맥OS, 리눅스, 윈도우 등 메이저 운영체제들을 지원
@@ -23,8 +25,13 @@ VS code는 다음과 같은 주요한 특징을 가지고 있습니다.
 - 마켓플레이스에 15,000개 이상의 확장이 공개되어있음. 대부분 무료
 - 모든 기능에 대한 키 바인딩(단축키)을 자유롭게 변경 가능
 - 커맨드 팔레트(Command + Shift + P)로 사용 가능한 기능을 증분검색으로 검색 및 실행 가능
+<br/>
+<img src = "https://github.com/solquick/oss_new/assets/98575490/9cad88a1-bb65-4552-8262-3b0e2d47198b" width="50%" height="70%">
+<br/><br/>
+<출처>
 
-
+https://www.44bits.io/ko/keyword/visual-studio-code<br/>
+https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C
 
 ## 2. 라이선스
 
@@ -35,14 +42,10 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
     MIT 허가서는 미국의 매사추세츠 공과대학교에서 자기 학교의 소프트웨어 공학도들을 돕기 위해 개발한 허가서입니. MIT 허가서를 따르는 소프트웨어를 개조한 제품을 반드시 오픈 소스로 배포해야 한다는 규정이 없으며, GNU 일반 공중 허가서(GPL)의 엄격함을 피하려는 사용자들에게 인기가 있습니다. MIT 허가서는 GNU 일반 공중 허가서 등과 달리 카피 레프트는 아니며 오픈 소스 여부에 관계없이 재사용을 인정하고 있습니다. BSD 라이선스를 기초로 작성된 BSD계열 라이선스 중의 하나이다. 여러 가지 라이선스 중에서도 MIT 허가서는 매우 제한이 느슨한 라이선스라고 할 수 있다. 이 허가서를 따르는 대표적 소프트웨어로 Node.js, jQuery, Ruby on Rails, X 윈도 시스템(X11) , 비주얼 스튜디오 코드 등이 있습니다.
     MIT License의 해당 소프트웨어를 누구라도 무상으로 제한없이 취급해도 됩니다. 단, 저작권 표시 및 이 허가 표시를 소프트웨어의 모든 복제물 또는 중요한 부분에 기재해야 합니다. 그리고 저자 또는 저작권자는 소프트웨어에 관해 아무런 책임을 지지 않습니다. 즉, MIT License라고 표기되어 있는 오픈소스들은 수정, 배포가 자유로우며 개인적 혹은 상업적으로 이용해도 되지만, 이 소스로 인한 피해는 전적으로 사용자가 감수해야 합니다.
 
-<출처>
-
-https://code.visualstudio.com/License/
-
-https://www.oss.kr/user_question/show/975acff4-0061-4040-be50-7032e9d2aa1e
-
-https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C
-
+<출처><br/>
+https://code.visualstudio.com/License/<br/>
+https://www.oss.kr/user_question/show/975acff4-0061-4040-be50-7032e9d2aa1e<br/>
+https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C<br/>
 https://velog.io/@ssulv3030/MIT-license%EB%9E%80
 
 ## 3. 주요기능
@@ -193,80 +196,63 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
 
    다중커서편집은 한 번에 여러 코드를 동시에 수정할 수 있게 하는 기능입니다. 이를 이용하면 여러 줄을 동시에 수정하거나 같은 이름의 변수를 한 번에 수정할 때 용이합니다. VS code에는 개발자의 편의를 위한 다양한 다중 커서 편집 기능들이 있습니다.
 
-    - Ctrl + Alt + (↑, ↓) :
-
+    - Ctrl + Alt + (↑, ↓) :<br/>
         Ctrl + Alt 키를 누른 상태에서 위, 아래 방향 화살표로 세로 선택 영역을 조절합니다. 세로로 여러 줄이 선택 된 상태에서, Shift + (←, →) 단축키로 가로 영역을 선택 할 수 있습니다. 세로 영역이 선택된 상태에서 텍스트를 수정하면, 선택 된 모든 영역에 수정한 내용이 똑같이 반영됩니다.
       
-        ![1](https://github.com/solquick/oss_new/assets/98575490/2d578c15-8fb3-4712-baf6-81a6afc3c51f)
+        ![1](https://github.com/solquick/oss_new/assets/98575490/2d578c15-8fb3-4712-baf6-81a6afc3c51f)<br/><br/>
       
-    - Shift + Alt + 마우스 드래그 :
-
+    - Shift + Alt + 마우스 드래그 :<br/>
       Shift + Alt 키를 누른 상태로 선택 영역을 마우스로 드래그합니다. 세로로 영역이 모두 선택됩니다.
 
-      ![드래그](https://github.com/solquick/oss_new/assets/98575490/de082b9f-9491-430b-8130-4eb4087a2d16)
+      ![드래그](https://github.com/solquick/oss_new/assets/98575490/de082b9f-9491-430b-8130-4eb4087a2d16)<br/><br/>
       
-    - Ctrl + Shift + L :
-
+    - Ctrl + Shift + L :<br/>
         변경하려는 단어를 선택하고, Ctrl + Shift + L 단축키를 누르면, 선택한 단어와 같은 단어가 모두 선택됩니다. 이 때, 단어를 수정하면, 동시에 수정이 됩니다.
 
-       ![L](https://github.com/solquick/oss_new/assets/98575490/b52d6770-6e10-401b-afd9-993efa4d4faf)
+       ![L](https://github.com/solquick/oss_new/assets/98575490/b52d6770-6e10-401b-afd9-993efa4d4faf)<br/><br/>
 
-    - Ctrl + D :
-
+    - Ctrl + D :<br/>
        Ctrl + D 단축키는 같은 단어를 모두 선택하는 것이 아니라, 단축키를 누를 때마다 같은 단어가 하나씩 추가로 선택됩니다. 변경하려는 단어(변수)를 선택합니다. Ctrl + D 키를 원하는 단어가 모두 선택될 때까지 반복해서 누릅니다.
 
-      ![d](https://github.com/solquick/oss_new/assets/98575490/f20f2d87-d4a4-41fb-a5ff-ea9c443d7bfd)
+      ![d](https://github.com/solquick/oss_new/assets/98575490/f20f2d87-d4a4-41fb-a5ff-ea9c443d7bfd)<br/><br/>
 
-    - Shift+ Alt+ Left/Right key
+    - Shift+ Alt+ Left/Right key :<br/>
         빠르게 지금 선택한 부분을 확장하고 싶거나 줄이고 싶을 때 Shift+Alt+좌/우 방향키를 눌러주면 쉽게 확장/축소가 가능합니다. 오른쪽 방향키를 몇 번 눌러주면 넓은 범위도 쉽게 선택이 가능합니다.
 
-      ![l,r](https://github.com/solquick/oss_new/assets/98575490/61948139-98b3-4ef4-af1b-5f9eeb50cbe2)
+      ![l,r](https://github.com/solquick/oss_new/assets/98575490/61948139-98b3-4ef4-af1b-5f9eeb50cbe2)<br/><br/>
 
-    <출처>
-   
-   https://hianna.tistory.com/360
-   
-   https://hianna.tistory.com/358
-   
-   https://week-book.tistory.com/entry/VSCode-%EC%BB%A4%EC%84%9C-%EC%97%AC%EB%9F%AC-%EA%B0%9C-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0-%EB%A9%80%ED%8B%B0-%EC%BB%A4%EC%84%9C
+    <출처><br/>
+   https://hianna.tistory.com/360<br/>
+   https://hianna.tistory.com/358<br/>
+   https://week-book.tistory.com/entry/VSCode-%EC%BB%A4%EC%84%9C-%EC%97%AC%EB%9F%AC-%EA%B0%9C-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0-%EB%A9%80%ED%8B%B0-%EC%BB%A4%EC%84%9C<br/><br/>
 
    
 10. 코드 조각
 
-    코드조각 (snippet)은 단축어를 통해 자주 사용되는 코드를 빠르게 작성할 수 있도록 도와주는 것입니다. 예를 들어, clg라고 입력하면 console.log()로 변경되거나 rfc라고 입력하면 리액트 함수형 컴포넌트 구조 코드를 작성해주어 반복적인 코드 작성시간을 줄여줍니다.
+    코드조각 (snippet)은 단축어를 통해 자주 사용되는 코드를 빠르게 작성할 수 있도록 도와주는 것입니다. 예를 들어, clg라고 입력하면 console.log()로 변경되거나 rfc라고 입력하면 리액트 함수형 컴포넌트 구조 코드를 작성해주어 반복적인 코드 작성시간을 줄여줍니다.<br/><br/>
 
-   1. 내장 코드조각:
+    1. 내장 코드조각:<br/>
+        VS code를 설치하면 기본으로 설치되어 있거나 스니펫 익스텐션을 설치하면 사용할 수 있는 코드조각을 뜻합니다. 예를 들어, html 파일에서 !를 작성하면 자동으로 html5의 기본 구성이 작동됩니다. javascript, css 등 각 언어에서 내장 코드 조각을 사용할 수 있고 이는 빠른 코딩을 돕습니다.<br/><br/>
 
-        VS code를 설치하면 기본으로 설치되어 있거나 스니펫 익스텐션을 설치하면 사용할 수 있는 코드조각을 뜻합니다. 예를 들어, html 파일에서 !를 작성하면 자동으로 html5의 기본 구성이 작동됩니다. javascript, css 등 각 언어에서 내장 코드 조각을 사용할 수 있고 이는 빠른 코딩을 돕습니다.
+    2. 사용자 코드조각:<br/>
+        사용자 코드조각은 .json 형태의 파일로 생성됩니다. 만약 javascript의 코드 조각을 만들면 javascript.json 파일에 저장이 되고, 마크다운 문서의 코드 조각을 만들면 markdown.json 파일에 저장이 됩니다.<br/><br/>
 
-
-   2. 사용자 코드조각:
-
-        사용자 코드조각은 .json 형태의 파일로 생성됩니다. 만약 javascript의 코드 조각을 만들면 javascript.json 파일에 저장이 되고, 마크다운 문서의 코드 조각을 만들면 markdown.json 파일에 저장이 됩니다.
-
-
-   3. 사용자 코드조각 만드는 방법
+    3. 사용자 코드조각 만드는 방법<br/>
         
-        - 코드 조각 생성하기
-       
+        - 코드 조각 생성하기<br/>
             파일 -> 기본 설정 -> 사용자 코드조각
 
-        - scope
-        
+        - scope<br/>
             이 코드 조각을 호출할 수 있는 확장자를 가진 언어들을 넣어줍니다.
 
-        - prefix
-       
+        - prefix<br/>
             코드 조각을 호출할 때 사용되며, 인텔리센싱 키를 활용하거나 타자 입력 시 자동으로 추천합니다. 해당 prefix를 선택하면 코드 조각 **본문(body)**이 삽입됩니다.
       
-        - body
-    
+        - body<br/>
             자신이 만들고 싶은 코드조각을 입력합니다. 여기에는 $1, $2, ... $0과 같이 변수를 둬서 코드 조각을 생성할 때마다 동적으로 변수의 내용을 입력할 수 있습니다. 각 변수의 내용을 입력한 후에는 tap을 통해 다음 변수로 이동합니다.
     
-        - description
-    
+        - description<br/>
             마지막으로 이 코드조각에 대한 설명으로 코드조각을 사용하기 위해 인텔리센싱 하거나 타자 입력시 나타나는 prefix와 더불어 표시됩니다.   
-
 
 
 11. 휴대성
