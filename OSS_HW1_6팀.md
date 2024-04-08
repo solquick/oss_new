@@ -220,18 +220,21 @@ Visual Studio Code는 사용자가 테마 및 사용자 인터페이스를 사�
     Visual Studio Code는 다양한 테마를 제공하며, 이는 에디터의 색상 스킴 및 UI 요소의 모양과 느낌을 변경합니다.
     VSC에서 테마를 변경하려면 도구 - 옵션 - 환경 - 일반을 선택한 후 "색 테마"에서원하는 테마를 선택합니다.
     사용 가능한 테마는 VSC를 설치할 때 기본으로 제공되며, 추가 테마를 설치할 수도 있습니다.
+  
     ![image](https://github.com/solquick/oss_new/assets/165988072/470d527c-e859-4449-89b4-00068fb7ee55)
 
 
 - 아이콘 테마 변경:
 
     VSC는 아이콘 테마도 제공하며, 이를 통해 사이드바와 같은 UI 요소의 아이콘을 변경할 수 있습니다.
-    아이콘 테마를 변경하려면 "File" 메뉴에서 "Preferences"를 선택한 후 "File Icon Theme"을 선택하여 원하는 아     이콘 테마를 선택합니다.
-    ![image](https://github.com/solquick/oss_new/assets/165988072/5f4bdc24-976e-42ad-b2ac-aa1ba59024b1)
+    아이콘 테마를 변경하려면 "File" 메뉴에서 "Preferences"를 선택한 후 "File Icon Theme"을 선택하여 원하는 아이콘 테마를 선택합니다.
+  
+    ![screenshot](https://github.com/solquick/oss_new/assets/165988072/5371c515-6e63-4230-a721-e21d67097efa)
+  
     <출처 - https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons>
 
 
 - UI 사용자 정의:
 
-    사용자는 UI의 다양한 측면을 사용자 정의할 수 있습니다. 예를 들어, 사이드바 및 패널의 크기, 글꼴 크기 및 스     타일, 여백 크기 등을 변경할 수 있습니다.
-    이러한 사용자 정의를 위해 VSC는 설정 파일인 settings.json을 제공합니다. 이 파일을 통해 다양한 UI 관련 설정     을 수정할 수 있습니다.
+    사용자는 UI의 다양한 측면을 사용자 정의할 수 있습니다. 예를 들어, 사이드바 및 패널의 크기, 글꼴 크기 및 스타일, 여백 크기 등을 변경할 수 있습니다.
+    이러한 사용자 정의를 위해 VSC는 설정 파일인 settings.json을 제공합니다. 이 파일을 통해 다양한 UI 관련 설정을 수정할 수 있습니다.
