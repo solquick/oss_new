@@ -107,28 +107,28 @@ Visual Studio Code의 경우 기업에서도 무료로 사용 가능합니다. V
 
    
 3. Git 통합
-4. 디버깅<br/>
-    디버깅은 VS Code 의 주요한 기능 중 하나이다. VS Code의 내장 디버거는 편집, 컴파일 및 디버그 루프를 가속화 하는 데 도움을 준다.
-    VS Code는 Node.js 런타임에 대한 디버깅 지원이 내장되어 있으며 JavaScript, TypeScript 또는 JavaScript로 변환되는 다른 언어를 디버깅할 수 있다.
-    다른 언어와 런타임(PHP, Ruby, Go, C#, Python, C++, PowerShell 등을 포함)을 디버깅 하려면 VS Code Marketplace에서 Debuggers를 찾거나 최상위 실행 메뉴에서 추가 Debuggers 설치를 선택하면 된다.
+4. 디버깅   
+    디버깅은 VS Code 의 주요한 기능 중 하나이다. VS Code의 내장 디버거는 편집, 컴파일 및 디버그 루프를 가속화 하는 데 도움을 준다.   
+    VS Code는 Node.js 런타임에 대한 디버깅 지원이 내장되어 있으며 JavaScript, TypeScript 또는 JavaScript로 변환되는 다른 언어를 디버깅할 수 있다.   
+    다른 언어와 런타임(PHP, Ruby, Go, C#, Python, C++, PowerShell 등을 포함)을 디버깅 하려면 VS Code Marketplace에서 Debuggers를 찾거나 최상위 실행 메뉴에서 추가 Debuggers 설치를 선택하면 된다.   
    
-    1) Run and Debug View<br/>
-    **Run and Debug**를 보려면, VS Code 측면의 Activity Bar에서 Run and Debug 아이콘을 선택한다.
+    1) 실행 및 디버그   
+    **실행 및 디버그**를 보려면, VS Code 측면의 Activity Bar에서 실행 및 디버그 아이콘을 선택한다.
     **Run and Debug View**는 실행 및 디버깅과 관련된 모든 정보를 표시하며 디버깅 명령과 구성 설정이 있는 상단 막대가 있다.
-    실행 및 디버깅이 아직 구성되지 않은 경우, VS Code는 Run start view를 보여준다.
-    최상단의 **Run** 메뉴에는 가장 일반적인 run과 debug 명령이 있다.
+    최상단의 **실행** 메뉴에는 가장 일반적인 실행과 디버그 명령이 있다.
+![debug icon, run menu](https://github.com/solquick/oss_new/assets/165973549/2242f4c5-4fe7-40a7-b047-abe405a249a1)
 
-    2) Debug actions<br/>
-    디버그 세션이 시작되면, Debug toolbar가 편집기 상단에 나타난다.
-    다음은 디버그 툴바의 Action에 대한 설명이다.
+
+    3) Debug actions   
+    디버그 세션이 시작되면, Debug toolbar가 편집기 상단에 나타난다.   
+    다음은 디버그 툴바의 Action에 대한 설명이다.   
     - Continue/Pause : 다음 breakpoint까지 정상적인 프로그램(스크립트) 실행을 재개하라 / 현재 줄에서 실행되는 코드를 검사하고 한 줄씩 디버그하라
     - Step Over : 구성 요소 단계를 검사하거나 따르지 않고 다음 method을 단일 명령으로 실행하라.
     - Step Into : 실행 라인을 따라가려면 다음 method을 입력하라.
     - Step Out : method나 subroutine 안에 있을 때, 마치 단일 명령인 것 처럼 현재 method의 나머지 줄을 완료하여 이전 실행 context으로 돌아가라.
     - Restart : 현재 프로그램 실행을 종료하고 현재 run configuration을 사용하여 디버깅을 다시 시작하라.
-    - Stop : 현재 프로그램 실행을 종료하라.
-    
-    3) Breakpoints<br/>
+    - Stop : 현재 프로그램 실행을 종료하라.<br/><br/>
+   3) Breakpoints (중단점)   
    편집기 여백을 클릭하거나 현재 줄에서 F9를 사용하여 Breakpoints를 전환할 수 있다. 더 미세한 breakpoint 제어는 Run and Debug 보기의 BREAKPOINTS 섹션에서 수행할 수 있다. 편집기 여백의 Breakpoint는 일반적으로 빨간색 원으로 표시된다. 비활성화된 Breakpoint는 회색 원으로 표시된다.
 
 
