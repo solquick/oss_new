@@ -241,8 +241,8 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
         
         - 코드 조각 생성하기 : <br/>
             파일 -> 기본 설정 -> 사용자 코드조각<br/><br/>
-          <img src = "https://github.com/solquick/oss_new/assets/98575490/488459b9-42d7-4a32-9447-871d29e43dca" width="70%" height="70%">
-
+          <img src = "https://github.com/solquick/oss_new/assets/98575490/891370d2-5a20-4ba5-a2e7-94e45641bb42" width="70%" height="70%">
+          
         - scope : <br/>
             이 코드 조각을 호출할 수 있는 확장자를 가진 언어들을 넣어줍니다.
 
