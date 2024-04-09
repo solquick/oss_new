@@ -145,23 +145,31 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
       
    2) VSCode에서 Git 설치 확인:
       VS Code 메뉴의 '소스 제어'를 열어준다. 이때 '소스 제어' 탭으로 추후 모든 Git을 통한 커밋/동기화를 실행한다.
+      ![oss1](https://github.com/solquick/oss_new/assets/141840467/f915b3b6-5458-4017-8395-5f4698e10481)
       
-   3) GitHub 리포지토리와 연결:
+   4) GitHub 리포지토리와 연결:
       GitHub에 업로드할 프로젝트의 폴더를 열고, '소스 제어' 탭에서 'GitHub에 게시'를 선택한다.
       * Public - 리포지토리에 포함된 소스와 파일이 누구나 소스코드를 확인하고 다운로드할 수 있도록 전체공개로 업로드된다.
       * Private - 본인만 확인할 수 있는 비공개로 업로드된다.
         
-   4) 소스코드 변경 후 커밋:
+   5) 소스코드 변경 후 커밋:
       '변경 사항' 목록에 있는 새로운 파일 혹은 수정된 파일을 '+' 버튼을 눌러 '스테이징된 변경 사항' 목록으로 이동시킨다.
       이후 '커밋' 버튼을 눌러 변경 사항을 확정한다.
       * 스테이징하여 인덱스 목록에 올린 파일만 커밋된다.
+        ![oss2](https://github.com/solquick/oss_new/assets/141840467/f799afc0-f04b-4879-824c-bf5502a69179)
         
-   5) 푸시:
+   6) 푸시:
       커밋으로 로컬 저장소에 등록된 파일들의 변경 사항이 원격 저장소에 반영해 최신화한다.
       
-   6) 리포지토리 가져오기:
+   7) 리포지토리 가져오기:
       'F1'을 눌러 명령 팔레트를 열고, git clone을 검색하여 선택한다.
       내 컴퓨터로 가져오고 싶은 리포지토리를 선택해 로컬 저장소에 저장하면 .git 폴더가 생성되며 연동이 완료된다.
+      ![oss3](https://github.com/solquick/oss_new/assets/141840467/931a2865-6c51-4029-8494-785f1948b639)
+
+      <이미지 출처>
+      https://dev-youngjun.tistory.com/7
+https://wikidocs.net/195273
+https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_vignette
 
     
 
@@ -339,7 +347,8 @@ VS Code의 다양한 기능과 모드를 통해 사용자 환경을 쉽게 내�
     VS Code의 원격 개발 기능은 SSH, Docker 컨테이너, WSL(Windows Subsystem for Linux) 등 다양한 환경을 지원한다.
 ![oss](https://github.com/solquick/oss_new/assets/141840467/c73115be-ef4c-4f0a-a4e5-13e4c3b11398)
 
-<출처 - https://technote.kr/320>
+<이미지 출처>
+https://technote.kr/320
     
     <VS Code 원격 개발의 장점>
 
