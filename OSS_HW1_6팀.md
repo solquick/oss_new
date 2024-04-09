@@ -121,6 +121,7 @@ https://velog.io/@ssulv3030/MIT-license%EB%9E%80
 
    
 3. Git 통합
+
    VS Code는 Git 통합 기능을 제공합니다. Git은 코드 버전 관리 시스템으로서, 개발자들이 Git을 사용하여 소스 코드를 관리하고 조작할 수 있도록 도와준다.
 
    <VS Code와 Git 통합의 기능 및 장점>
@@ -333,6 +334,7 @@ VS Code의 다양한 기능과 모드를 통해 사용자 환경을 쉽게 내�
 
  
 13. 원격 개발
+
     VS Code의 원격 개발 기능은 로컬 컴퓨터에서 코드를 작성하고 실행하는 대신 원격 서버나 컨테이너에서 코드를 작성하고 실행할 수 있는 기능을 제공한다.
     VS Code의 원격 개발 기능은 SSH, Docker 컨테이너, WSL(Windows Subsystem for Linux) 등 다양한 환경을 지원한다.
 
