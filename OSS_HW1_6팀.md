@@ -6,7 +6,7 @@
 2019112316 / 전자공학부 / 조현준 / 기능 : 5번(코드 리팩터링 및 포매팅), 6번(터미널 통합)<br/>
 2019110718 / 컴퓨터학부 / 양지웅 / 기능 : 2번(확장 프로그램), 11번(라이브 공유)<br/>
 2020112286 / 전자공학부 / 신상아 / 기능 : 4번(디버깅), 9번(휴대성)<br/>
-2021116325 / 전자공학부 / 이민정 / 기능 : 1번(InteeliSense), 12번(테마 및 사용자 인터페이스 사용자 정의)<br/>
+2021116325 / 전자공학부 / 이민정 / 기능 : 1번(IntelliSense), 12번(테마 및 사용자 인터페이스 사용자 정의)<br/>
 2019116278 / 전자공학부 / 강민규 / 기능 : 3번(Git 통합), 10번(원격 개발)<br/>
 
 
@@ -179,7 +179,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
 
     
 
-5. 디버깅   
+4. 디버깅   
     디버깅은 VS Code 의 주요한 기능 중 하나이다. VS Code의 내장 디버거는 편집, 컴파일 및 디버그 루프를 가속화 하는 데 도움을 준다.   
     VS Code는 Node.js 런타임에 대한 디버깅 지원이 내장되어 있으며 JavaScript, TypeScript 또는 JavaScript로 변환되는 다른 언어를 디버깅할 수 있다.   
     다른 언어와 런타임(PHP, Ruby, Go, C#, Python, C++, PowerShell 등을 포함)을 디버깅 하려면 VS Code Marketplace에서 Debuggers를 찾거나 최상위 실행 메뉴에서 추가 Debuggers 설치를 선택하면 된다.   
@@ -194,13 +194,13 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
     2) Debug actions   
     디버그 세션이 시작되면, Debug toolbar가 편집기 상단에 나타난다.   
     다음은 디버그 툴바의 Action에 대한 설명이다.   
-    - Continue/Pause : 다음 breakpoint까지 정상적인 프로그램(스크립트) 실행을 재개하라 / 현재 줄에서 실행되는 코드를 검사하고 한 줄씩 디버그하라
-    - Step Over : 구성 요소 단계를 검사하거나 따르지 않고 다음 method을 단일 명령으로 실행하라.
-    - Step Into : 실행 라인을 따라가려면 다음 method을 입력하라.
-    - Step Out : method나 subroutine 안에 있을 때, 마치 단일 명령인 것 처럼 현재 method의 나머지 줄을 완료하여 이전 실행 context으로 돌아가라.
-    - Restart : 현재 프로그램 실행을 종료하고 현재 run configuration을 사용하여 디버깅을 다시 시작하라.
-    - Stop : 현재 프로그램 실행을 종료하라.<br/><br/>
-    ![breakpoint : action bar](https://github.com/solquick/oss_new/assets/165973549/59ab9436-e114-46ce-a533-e891ff643f7a)
+        - Continue/Pause : 다음 breakpoint까지 정상적인 프로그램(스크립트) 실행을 재개하라 / 현재 줄에서 실행되는 코드를 검사하고 한 줄씩 디버그하라
+        - Step Over : 구성 요소 단계를 검사하거나 따르지 않고 다음 method을 단일 명령으로 실행하라.
+        - Step Into : 실행 라인을 따라가려면 다음 method을 입력하라.
+        - Step Out : method나 subroutine 안에 있을 때, 마치 단일 명령인 것 처럼 현재 method의 나머지 줄을 완료하여 이전 실행 context으로 돌아가라.
+        - Restart : 현재 프로그램 실행을 종료하고 현재 run configuration을 사용하여 디버깅을 다시 시작하라.
+        - Stop : 현재 프로그램 실행을 종료하라.<br/><br/>
+        ![breakpoint : action bar](https://github.com/solquick/oss_new/assets/165973549/59ab9436-e114-46ce-a533-e891ff643f7a)
 
    3) Breakpoints (중단점)   
    편집기 여백을 클릭하거나 현재 줄에서 F9를 사용하여 Breakpoints를 전환할 수 있다. 더 미세한 breakpoint 제어는 Run and Debug 보기의 BREAKPOINTS 섹션에서 수행할 수 있다. 편집기 여백의 Breakpoint는 일반적으로 빨간색 원으로 표시된다. 비활성화된 Breakpoint는 회색 원으로 표시된다.
@@ -208,7 +208,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
 
 
 
-6. 코드 리팩터링 및 포매팅  
+5. 코드 리팩터링 및 포매팅  
    코드 리팩터링(refactoring) 및 포매팅(formatting)은 개발자가 코드를 개선하고 유지 관리하기 쉽도록 하는 과정입니다. 아래에서 VSC에서의 코드 리팩터링과 포매팅에 대해 설명하겠습니다.
 
    1) 코드 리팩터링 (Refactoring)
@@ -229,7 +229,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
 
 
 
-7. 터미널 통합
+6. 터미널 통합
 
     비주얼 스튜디오 코드(Visual Studio Code)의 내장 터미널 기능은 개발자들에게 코드 편집 환경 내에서 직접 커맨드 라인 명령을 실행할 수 있는 강력한 도구를 제공합니다. 이 기능은 Windows, macOS, Linux 등 다양한 운영 체제를 지원하며, 별도의 터미널 창을 열     지 않고도 코드 편집기 내에서 작업을 처리할 수 있어 작업 효율성을 크게 향상시킵니다.
 
@@ -253,7 +253,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
         별도의 터미널 창을 열지 않고도 모든 작업을 한 곳에서 관리할 수 있어, 작업 환경을 통합하여 편리하게 관리할 수 있습니다.
 
 
-8. 다중 커서 편집
+7. 다중 커서 편집
 
    다중커서편집은 한 번에 여러 코드를 동시에 수정할 수 있게 하는 기능입니다. 이를 이용하면 여러 줄을 동시에 수정하거나 같은 이름의 변수를 한 번에 수정할 때 용이합니다. VS code에는 개발자의 편의를 위한 다양한 다중 커서 편집 기능들이 있습니다.
 
@@ -288,7 +288,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
    https://week-book.tistory.com/entry/VSCode-%EC%BB%A4%EC%84%9C-%EC%97%AC%EB%9F%AC-%EA%B0%9C-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0-%EB%A9%80%ED%8B%B0-%EC%BB%A4%EC%84%9C<br/><br/>
 
    
-10. 코드 조각
+8. 코드 조각
 
     코드조각 (snippet)은 단축어를 통해 자주 사용되는 코드를 빠르게 작성할 수 있도록 도와주는 것입니다. 예를 들어, clg라고 입력하면 console.log()로 변경되거나 rfc라고 입력하면 리액트 함수형 컴포넌트 구조 코드를 작성해주어 반복적인 코드 작성시간을 줄여줍니다.<br/><br/>
 
@@ -323,7 +323,7 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
     https://ux.stories.pe.kr/290<br/>
     https://llighter.github.io/vscode-snippet/<br/><br/>
 
-12. 휴대성 (Portability)     
+9. 휴대성 (Portability)     
 VS Code의 다양한 기능과 모드를 통해 사용자 환경을 쉽게 내보내고 다른 컴퓨터에서 가져올 수 있어 일관된 개발 환경을 유지할 수 있다.   
 다음은 VS Code의 휴대성 향상을 위한 도구에 대한 설명이다.   
     1) 확장 프로그램   
@@ -373,7 +373,7 @@ https://technote.kr/320
        원격 서버에 접속하여 작업하므로 어디서든 접근할 수 있다. 이는 여러 장소에서 작업하거나 이동 중에도 개발을 계속할 수 있음을 의미한다.
 
        
-15. 라이브 공유
+11. 라이브 공유
     
     VSC의 라이브 공유 기능은 개발자들이 실시간으로 코드를 공유하고 협업할 수 있도록 도와준다. 이를 통해 개발자들은 코드 리뷰, 페어 프로그래밍, 멘토링 등의 작업을 더욱 효율적으로 수행할 수 있다.
 
@@ -396,7 +396,7 @@ https://technote.kr/320
 
 
 
-16. 테마 및 사용자 인터페이스 사용자 정의
+12. 테마 및 사용자 인터페이스 사용자 정의
 
 Visual Studio Code는 사용자가 테마 및 사용자 인터페이스를 사용자 정의할 수 있는 다양한 옵션을 제공한다. 이러한 사용자 정의 옵션을 통해 개발자는 자신에게 가장 적합한 작업 환경을 만들 수 있으며, 작업 중 환경을 자신의 방식에 맞게 더 편안하고 생산적인 환경으로 조성할 수 있다.
 
