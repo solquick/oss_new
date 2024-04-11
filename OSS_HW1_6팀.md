@@ -260,7 +260,10 @@ https://palkong.com/entry/VScode-git-github-%EC%97%B0%EA%B2%B0%ED%95%98#google_v
 
 - 에디터와의 통합:  
   내장 터미널은 작업 공간의 루트에서 시작되며, 에디터와 통합되어 링크 및 오류 감지와 같은 기능을 지원한다.  
-  이를 통해 `mkdir`, `git`과 같은 명령을 독립적인 터미널처럼 실행할 수 있다.
+  이를 통해 `mkdir`, `git`과 같은 명령을 독립적인 터미널처럼 실행할 수 있다. 아래는 작성자의 개발 환경을 캡처한 사진으로 독립적인 터미널에서 명령어를 실행한 모습이다.
+
+  ![image](https://github.com/solquick/oss_new/assets/100821746/01768777-ef63-4d1d-a9e7-fa9fc353e24d)
+
 
 - 접근성 향상:  
   메뉴, 명령 팔레트(`Ctrl+Shift+P`), 또는 탐색기를 통해 쉽게 터미널을 열 수 있다.  
